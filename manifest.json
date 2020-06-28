@@ -7,10 +7,11 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"]
       }
-    ],
-    "browser_action" : [
-      {
-        "default_popup": "main.html"
-      }
-    ]
+  ],
+  "browser_action" : {
+      "default_popup": "main.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
 } 
