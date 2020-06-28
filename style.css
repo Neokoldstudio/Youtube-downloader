@@ -1,8 +1,51 @@
+
 body{
     background-color: white;
+    height: 175px;
+    width: 200px;  
 }
 
-.URL_area{
+h2{
+    margin-left: 9px;
+}
 
-    width: 50%;
+#URL_area{
+    margin-left: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 10px 5px 10px;
+
+}
+
+button{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 9px #999;
+    text-decoration:none;
+    user-select: none;
+    outline: 0 !important;
+}
+
+button:hover {background-color: #008B8B}
+
+button:active {
+  background-color: #008B8B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration:none;
+  outline: 0;
+}
+
+.slidecontainer{
+    margin-top: 15px;
 }
