@@ -18,7 +18,7 @@ $( "#slider-range" ).slider({
         var time = [
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 0 ])),
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 1 ]))
-        ]
+        ];
         $("#slider-infos")[0].innerHTML =  "<b>From</b> " + time[ 0 ] + " <b>to</b> " + time[ 1 ];
     }
 });
@@ -26,11 +26,11 @@ $( "#slider-range" ).slider({
 var time = [
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 0 ))),
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 1 )))
-]
+];
 $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
 
 $("#dl-video").on("click", function(event) { // Event triggered when the download button is clicked. event variable contain the event informations
-})
+});
 
 function getFormattedTimeFromSeconds(secs)
 {
@@ -69,7 +69,7 @@ function getFormattedTimeFromSeconds(secs)
             hours: 0,
             minutes: 0,
             seconds: 0
-        }
+        };
     }
     return {
         hours: hours,
