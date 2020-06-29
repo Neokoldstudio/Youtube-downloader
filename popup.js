@@ -39,12 +39,14 @@ function getFormattedTimeFromSeconds(secs)
         hours = Math.floor(isHours);
         isMinutes = remainder / 60;
     }
+    else{hours = 0;}
     if(isMinutes>1)
     {
         remainder = remainder % 60;
         minutes = Math.floor(isMinutes);
         seconds = remainder;
     }
+    else{minutes = 0;}
     return {
         hours: hours,
         minutes: minutes,
