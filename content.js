@@ -10,9 +10,7 @@ $("#dl-video").on("click", function(event) {
     
     if(match)
     {
-        var downloading = chrome.downloads.download({
-            url: URL,
-        });
+        
     }
     
 });
