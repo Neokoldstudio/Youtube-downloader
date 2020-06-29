@@ -14,7 +14,7 @@ $( "#slider-range" ).slider({
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 0 ])),
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 1 ]))
         ]
-        $("#slider-infos")[0].innerHTML =  "De " + time[ 0 ] + " à " + time[ 1 ];
+        $("#slider-infos")[0].innerHTML =  "<b>De</b> " + time[ 0 ] + " <b>à</b> " + time[ 1 ];
     }
 });
 
@@ -22,7 +22,7 @@ var time = [
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 0 ))),
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 1 )))
 ]
-$("#slider-infos")[0].innerHTML = "De " + time[0] + " à " + time[1];
+$("#slider-infos")[0].innerHTML = "<b>De</b> " + time[0] + " <b>à</b> " + time[1];
 
 $("#dl-video").on("click", function(event) { // Event triggered when the download button is clicked. event variable contain the event informations
 })

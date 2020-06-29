@@ -6,15 +6,31 @@ body{
 }
 
 h2{
-    margin-left: 9px;
+    margin: auto;
+    text-align: center;
 }
 
-#URL_area{
-    margin-left: 7px;
+#URL_area
+{
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid cadetblue;
+    width: 180px;
     padding: 5px 10px 5px 10px;
+    
+    outline: 0;
+    transition: border-bottom 0.5s, width 0.2s ease-in-out;
+}
 
+
+#URL_area:focus
+{
+    width: 180px;
+    border-bottom: solid cadetblue 1px;
+}
+
+#URL_area:invalid
+{
+    border-bottom: solid red 1px;
 }
 
 button{
@@ -36,7 +52,9 @@ button{
     outline: 0 !important;
 }
 
-button:hover {background-color: #008B8B}
+button:hover {
+    background-color: #008B8B
+}
 
 button:active {
   background-color: #008B8B;
@@ -46,6 +64,13 @@ button:active {
   outline: 0;
 }
 
-.slidecontainer{
+.slidecontainer
+{
     margin-top: 15px;
+}
+
+#slider-infos
+{
+    text-align: center;
+    font-weight: 400;
 }
