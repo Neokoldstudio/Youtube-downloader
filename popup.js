@@ -33,26 +33,50 @@ function getFormattedTimeFromSeconds(secs)
     var isHours = secs / 3600;
     var isMinutes = secs / 60;
     var remainder = secs;
-    if(isHours>1)
+    if(secs>0)
     {
-        remainder = remainder%3600;
-        hours = Math.floor(isHours);
-        isMinutes = remainder / 60;
+        if(isHours>1)
+        {
+            remainder = remainder%3600;
+            hours = Math.floor(isHours);
+            isMinutes = remainder / 60;
+        }
+        if(isMinutes>1)
+        {
+            remainder = remainder % 60;
+            minutes = Math.floor(isMinutes);
+            seconds = remainder;
+        }
+        else
+        {
+            if(remainder>0)
+                seconds = remainder;
+        }
+        return {
+            hours: hours,
+            minutes: minutes,
+            seconds: seconds
+        };
     }
-    if(isMinutes>1)
+    else
     {
-        remainder = remainder % 60;
-        minutes = Math.floor(isMinutes);
-        seconds = remainder;
+        return {
+            hours: 0,
+            minutes: 0,
+            seconds: 0
+        }
     }
-    return {
-        hours: hours,
-        minutes: minutes,
-        seconds: seconds
-    };
 }
 
 function getStringFromTime(time)
 {
-    return time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
+    var toReturn = "";
+    if(time.hours)
+        toReturn+=time.hours + "h "
+    if(time.minutes)
+        toReturn+=time.minutes + "min "
+    if(time.seconds!=undefined)
+        toReturn+=time.seconds + "sec"
+    //toReturn = time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
+    return toReturn;
 }
