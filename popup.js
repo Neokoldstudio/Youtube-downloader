@@ -4,17 +4,22 @@
 //###############################
 //###############################
 
+var handle = $( "#Multi_slider" );
 $( "#slider-range" ).slider({
     range: true,
     min: 0,
-    max: 500,
-    values: [ 0, 500 ],
+    max: 10000,
+    values: [ 0, 10000 ],
+    create: function() {
+        //handle.text( $( this ).slider( "value" ) );
+      },
     slide: function(event, ui) {
+        //handle.text( ui.value );
         var time = [
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 0 ])),
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 1 ]))
         ]
-        $("#slider-infos")[0].innerHTML =  "<b>De</b> " + time[ 0 ] + " <b>à</b> " + time[ 1 ];
+        $("#slider-infos")[0].innerHTML =  "<b>From</b> " + time[ 0 ] + " <b>to</b> " + time[ 1 ];
     }
 });
 
@@ -22,7 +27,7 @@ var time = [
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 0 ))),
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 1 )))
 ]
-$("#slider-infos")[0].innerHTML = "<b>De</b> " + time[0] + " <b>à</b> " + time[1];
+$("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
 
 $("#dl-video").on("click", function(event) { // Event triggered when the download button is clicked. event variable contain the event informations
 })
@@ -79,9 +84,9 @@ function getStringFromTime(time)
     if(time.hours)
         toReturn+=time.hours + "h "
     if(time.minutes)
-        toReturn+=time.minutes + "min "
+        toReturn+=time.minutes + "m "
     if(time.seconds!=undefined)
-        toReturn+=time.seconds + "sec"
+        toReturn+=time.seconds + "s "
     //toReturn = time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
     return toReturn;
 }

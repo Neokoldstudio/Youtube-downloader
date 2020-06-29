@@ -1,19 +1,23 @@
 
 body{
-    background-color: white;
+    background-color: transparent;
     height: 175px;
-    width: 200px;  
+    width: 200px;
+    padding: 10px;
 }
 
 h2{
     margin: auto;
     text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 #URL_area
 {
     border: none;
     border-bottom: 1px solid cadetblue;
+    margin-top: 10px;
     width: 180px;
     padding: 5px 10px 5px 10px;
     
@@ -48,8 +52,12 @@ button{
     border-radius: 7px;
     box-shadow: 0 9px #999;
     text-decoration:none;
-    user-select: none;
+
     outline: 0 !important;
+
+    user-select: none;
+    -webkit-user-select: none;
+
 }
 
 button:hover {
@@ -73,4 +81,30 @@ button:active {
 {
     text-align: center;
     font-weight: 400;
+    margin-bottom: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#multiSliderHandle{
+    border-radius: 25px;
+    outline: 0;
+    background-color: #008B8B;
+    border: solid white 1px;
+}
+
+.ui-slider-range
+{
+    background-color: cadetblue !important;
+}
+
+.ui-slider
+{
+    background: repeating-linear-gradient(
+        -45deg,
+        #ffff,
+        #ffff 10px,
+        #5555 10px,
+        #5555 20px
+    );
 }
