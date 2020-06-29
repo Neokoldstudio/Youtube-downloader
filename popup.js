@@ -82,11 +82,11 @@ function getStringFromTime(time)
 {
     var toReturn = "";
     if(time.hours)
-        toReturn+=time.hours + "h "
+        toReturn+=time.hours + "h ";
     if(time.minutes)
-        toReturn+=time.minutes + "m "
+        toReturn+=time.minutes + "m ";
     if(time.seconds!=undefined)
-        toReturn+=time.seconds + "s "
+        toReturn+=time.seconds + "s ";
     //toReturn = time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
     return toReturn;
 }
