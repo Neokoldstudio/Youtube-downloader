@@ -11,8 +11,8 @@ $("#dl-video").on("click", function(event) {
     if(match)
     {
         var downloading = chrome.downloads.download({
-            url: "https://weneedfun.com/wp-content/uploads/2016/07/Troll-Memes-3.png",
-            filename: "YouThoughtItWasWorkingNoob.png"
+            url: URL,
+            filename: "You Thought It Was Working You Noob.html"
         });
     }
     
