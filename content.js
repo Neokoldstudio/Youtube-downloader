@@ -10,10 +10,11 @@ $("#dl-video").on("click", function(event) {
     
     if(match)
     {
-        var downloading = chrome.downloads.download({
-            url: URL,
-            filename: "You Thought It Was Working You Noob.html"
-        });
+        sendURL(URL);
     }
     
 });
+
+function sendURL(URL) {
+    window.location.href = `http://localhost:4000/download?URL=${URL}`;
+}
