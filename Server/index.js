@@ -7,10 +7,18 @@ app.listen(4000, () => {
     console.log('Server Works !!! At port 4000');
 });
 
-app.get('/download', (req,res) => {
+app.get('/downloadVideo', (req,res) => {
     var URL = req.query.URL;
-    res.header('Content-Disposition', 'attachment; filename="video.mp4"');
+    res.header('Content-Disposition', 'attachment; filename="Video.mp4"');
     ytdl(URL, {
-        format: 'mp4'
+        format: 'mp4',
+        }).pipe(res);
+    });
+
+app.get('/downloadAudio', (req,res) => {
+    var URL = req.query.URL;
+    res.header('Content-Disposition', 'attachment; filename= "Audio.mp3"');
+    ytdl(URL, {
+        filter: "audioonly",
         }).pipe(res);
     });

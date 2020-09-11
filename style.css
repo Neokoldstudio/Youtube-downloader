@@ -1,7 +1,7 @@
 
 body{
     background-color: transparent;
-    height: 175px;
+    height: 215px;
     width: 200px;
     padding: 10px;
 }
@@ -17,7 +17,7 @@ h2{
 {
     border: none;
     border-bottom: 1px solid cadetblue;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 180px;
     padding: 5px 10px 5px 10px;
     
@@ -37,7 +37,7 @@ h2{
     border-bottom: solid red 1px;
 }
 
-button{
+#dl-video{
     background-color: cadetblue;
     border: none;
     color: white;
@@ -45,7 +45,7 @@ button{
     text-align: center;
     vertical-align: center;
     font-size: 16px;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 7px;
     cursor: pointer;
     border-radius: 7px;
@@ -59,12 +59,46 @@ button{
 
 }
 
-button:hover {
+#dl-video:hover {
     background-color: #008B8B
 }
 
-button:active {
+#dl-video:active {
   background-color: #008B8B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration:none;
+  outline: 0;
+}
+
+#dl-audio{
+    background-color: #A3424E;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 9px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 9px #999;
+    text-decoration:none;
+
+    outline: 0 !important;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+#dl-audio:hover {
+    background-color: #82343D
+}
+
+#dl-audio:active {
+  background-color: #82343D;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   text-decoration:none;

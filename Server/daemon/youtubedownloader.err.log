@@ -1,0 +1,121 @@
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20
+    let info = await ytdl.getInfo(videoID);
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+ReferenceError: videoID is not defined
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20:29
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+ReferenceError: await is not defined
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:20:16
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+(node:5996) UnhandledPromiseRejectionWarning: Error: Could not find player config
+    at exports.getBasicInfo (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:59:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Object.exports.<computed> [as getBasicInfo] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:296:18)
+    at async exports.getFullInfo (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:187:14)
+    at async Object.exports.<computed> [as getFullInfo] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:296:18)
+(node:5996) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:5996) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+ReferenceError: titre is not defined
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js:21:64
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\express\lib\router\layer.js:95:5)
+(node:5428) UnhandledPromiseRejectionWarning: Error: Could not find player config
+    at exports.getBasicInfo (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:59:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Object.exports.<computed> [as getBasicInfo] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:296:18)
+    at async exports.getFullInfo (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:187:14)
+    at async Object.exports.<computed> [as getFullInfo] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:296:18)
+(node:5428) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:5428) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.

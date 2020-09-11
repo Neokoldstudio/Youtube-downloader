@@ -4,12 +4,14 @@
 //###############################
 //###############################
 
+var Duration = 1;
+
 var handle = $( "#Multi_slider" );
 $( "#slider-range" ).slider({
     range: true,
     min: 0,
-    max: 10000,
-    values: [ 0, 10000 ],
+    max: Duration,
+    values: [ 0, Duration],
     create: function() {
         //handle.text( $( this ).slider( "value" ) );
       },
@@ -23,13 +25,14 @@ $( "#slider-range" ).slider({
     }
 });
 
+
 var time = [
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 0 ))),
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 1 )))
 ];
 $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
 
-$("#dl-video").on("click", function(event) { // Event triggered when the download button is clicked. event variable contain the event informations
+$("#dl-video").on("click", function(event) {
 });
 
 function getFormattedTimeFromSeconds(secs)
