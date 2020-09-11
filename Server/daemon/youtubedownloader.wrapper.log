@@ -462,3 +462,19 @@ Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
    à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
    à winsw.WrapperService.StopIt()
    à winsw.WrapperService.OnShutdown()
+2020-09-11 22:00:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-11 22:00:37 - Started 7276
+2020-09-11 22:50:24 - Stopping youtubedownloader.exe
+2020-09-11 22:50:24 - ProcessKill 7276
+2020-09-11 22:50:25 - Found child process: 13132 Name: conhost.exe
+2020-09-11 22:50:25 - Found child process: 13568 Name: node.exe
+2020-09-11 22:50:25 - Stopping process 13132
+2020-09-11 22:50:25 - Send SIGINT 13132
+2020-09-11 22:50:25 - SIGINT to 13132 failed - Killing as fallback
+2020-09-11 22:50:25 - Stopping process 13568
+2020-09-11 22:50:25 - Send SIGINT 13568
+2020-09-11 22:50:25 - SIGINT to 13568 failed - Killing as fallback
+2020-09-11 22:50:25 - Stopping process 7276
+2020-09-11 22:50:25 - Send SIGINT 7276
+2020-09-11 22:50:25 - SIGINT to 7276 failed - Killing as fallback
+2020-09-11 22:50:25 - Finished youtubedownloader.exe

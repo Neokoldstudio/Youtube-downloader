@@ -12,6 +12,7 @@
       "default_popup": "main.html"
   },
   "permissions": [
+    "tabs",
     "activeTab",
     "downloads"
   ]

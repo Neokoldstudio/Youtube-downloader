@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             document.getElementById("URL_area").value = tab.url;
         }
-        //alert(tab.url);
     });
 });
 
@@ -19,21 +18,6 @@ $("#dl-video").on("click", function(event) {
     var URL = document.getElementById("URL_area").value;
     var regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
     var match = URL.match(regExp);
-    //window.location.href = `http://localhost:4000/getInfo?URL=${URL}`;
-    //document.getElementById("URL_area").value = document.body.;
-    fetch(`http://localhost:4000/getInfo?URL=${URL}`, {
-        method: 'get'
-    }).then(reponse => {
-
-        document.getElementById("URL_area").value = res.toString();
-        console.log(res);
-        return res;
-
-        var result = JSON.parse(JSON.stringify(response).toString);
-        var Duration = result.name;
-    }).then((response) => {
-    });
-    
     if(match)
     {
         sendVideo(URL);
@@ -64,7 +48,6 @@ function sendAudio(URL) {
 //#slider part#
 //#           #
 //#############
-
 
 var handle = $( "#Multi_slider" );
 var Duration = 1000;
@@ -152,4 +135,3 @@ function getStringFromTime(time)
     //toReturn = time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
     return toReturn;
 }
-

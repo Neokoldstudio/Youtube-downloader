@@ -4,7 +4,7 @@ const ytdl = require('ytdl-core');
 const app = express();
 
 app.listen(4000, () => {
-    console.log('Server Works !!! At port 4000');
+    console.log("haha server go brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
 });
 
 app.get('/downloadVideo', (req,res) => {
@@ -21,4 +21,11 @@ app.get('/downloadAudio', (req,res) => {
     ytdl(URL, {
         filter: "audioonly",
         }).pipe(res);
+});
+
+/* app.get("/getInfo", (req, res) => {
+    var URL = req.query.URL;
+    ytdl.getBasicInfo(URL).then(data => {
+       res.send(data.playerResponse.videoDetails.lengthSeconds);
     });
+}); */
