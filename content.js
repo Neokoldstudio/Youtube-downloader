@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 method: 'get'
             }).then(response => response.json()).then(data => {
                 console.log(data);
-                //document.getElementById("URL_area").value = data.length;
-    
     
                 var Duration = data.length;
                 $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
@@ -24,11 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     min: 0,
                     max: Duration,
                     values: [0, Duration],
-                    create: function () {
-                        //handle.text( $( this ).slider( "value" ) );
-                    },
+                    create: function () {},
                     slide: function (event, ui) {
-                        //handle.text( ui.value );
                         var time = [
                             getStringFromTime(getFormattedTimeFromSeconds(ui.values[0])),
                             getStringFromTime(getFormattedTimeFromSeconds(ui.values[1]))
@@ -52,7 +47,9 @@ $("#dl-video").on("click", function(event) {
 });
 
 function sendVideo(URL) {
-    window.location.href = `http://localhost:4000/downloadVideo?URL=${URL}`;
+    var startTime = $( "#slider-range" ).slider( "values", 0 );
+    var endTime = $( "#slider-range" ).slider( "values", 1 );
+    window.location.href = `http://localhost:4000/downloadVideo?URL=${URL}?startTime=${startTime}?endTime=${endTime}`;
 }
 
 $("#dl-audio").on("click", function(event) { 
@@ -79,7 +76,7 @@ function sendAudio(URL) {
 //#############
 
 var handle = $( "#Multi_slider" );
-var Duration = 1000;
+var Duration = 1;
 $( "#slider-range" ).slider({
     range: true,
     min: 0,

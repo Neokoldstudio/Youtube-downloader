@@ -9,15 +9,18 @@ app.listen(4000, () => {
 
 app.get('/downloadVideo', (req,res) => {
     var URL = req.query.URL;
-    res.header('Content-Disposition', 'attachment; filename="Video.mp4"');
+    var Start = req.query.startTime;
+    var End = req.query.endTime;
+    res.header('Content-Disposition',  'attachment; filename= "Video.mp4"');
     ytdl(URL, {
         format: 'mp4',
-        begin: req.query.startTime*1000,
         }).pipe(res);
     });
 
 app.get('/downloadAudio', (req,res) => {
     var URL = req.query.URL;
+    var Start = req.query.startTime;
+    var End = req.query.endTime;
     res.header('Content-Disposition', 'attachment; filename= "Audio.mp3"');
     ytdl(URL, {
         filter: "audioonly",
