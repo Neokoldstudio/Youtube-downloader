@@ -21,9 +21,13 @@ app.get('/downloadVideo', (req,res) => {
 app.get('/downloadAudio', (req,res) => {
     var URL = req.query.URL;
     res.header('Content-Disposition', 'attachment; filename= "Audio.mp3"');
-    ytdl(URL, {
+    var dl = ytdl(URL, {
         filter: "audioonly",
         }).pipe(res);
+    dl.on("progress", ( event ) => {
+        console.log("PROGRESS!");
+        console.log(event);
+    })
 });
 
 app.get("/getVideoLength", (req, res) => {

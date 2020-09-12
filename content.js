@@ -5,6 +5,8 @@
 
 var isSliderInitialized = false;
 
+var socket = io("http://localhost:4000");
+
 document.addEventListener("DOMContentLoaded", function() {
     chrome.tabs.getSelected(null,function(tab) {
         var regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
@@ -12,37 +14,34 @@ document.addEventListener("DOMContentLoaded", function() {
         if(match)
         {
             document.getElementById("URL_area").value = tab.url;
-            fetch(`http://localhost:4000/getVideoLength?URL=${tab.url}`, {
-                method: 'get'
-            }).then(response => response.json()).then(data => {
-                console.log(data);
-                //document.getElementById("URL_area").value = data.length;
-    
-    
-                var Duration = data.length;
-                isSliderInitialized = true;
-                $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
-                $("#slider-range").slider({
-                    range: true,
-                    min: 0,
-                    max: Duration,
-                    values: [0, Duration],
-                    create: function () {
-                        //handle.text( $( this ).slider( "value" ) );
-                    },
-                    slide: function (event, ui) {
-                        //handle.text( ui.value );
-                        var time = [
-                            getStringFromTime(getFormattedTimeFromSeconds(ui.values[0])),
-                            getStringFromTime(getFormattedTimeFromSeconds(ui.values[1]))
-                        ];
-                        $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
-                    }
-                });
-            })
+                socket.emit("getInfos", tab.url);
         }
     });
 });
+
+socket.on("updateInfos", (data) => {
+    console.log(data);
+    var Duration = data.length;
+    isSliderInitialized = true;
+    $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
+    $("#slider-range").slider({
+        range: true,
+        min: 0,
+        max: Duration,
+        values: [0, Duration],
+        create: function () {
+            //handle.text( $( this ).slider( "value" ) );
+        },
+        slide: function (event, ui) {
+            //handle.text( ui.value );
+            var time = [
+                getStringFromTime(getFormattedTimeFromSeconds(ui.values[0])),
+                getStringFromTime(getFormattedTimeFromSeconds(ui.values[1]))
+            ];
+            $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
+        }
+    });
+})
 
 $("#dl-video").on("click", function(event) {
     var URL = document.getElementById("URL_area").value;
