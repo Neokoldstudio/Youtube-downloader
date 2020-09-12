@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 method: 'get'
             }).then(response => response.json()).then(data => {
                 console.log(data);
-    
+
                 var Duration = data.length;
                 $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
                 $("#slider-range").slider({

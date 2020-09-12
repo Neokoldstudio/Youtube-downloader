@@ -688,3 +688,99 @@ Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2020-09-12 11:37:30 - Finished youtubedownloader.exe
 2020-09-12 11:37:32 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2020-09-12 11:37:32 - Started 11612
+2020-09-12 14:49:39 - Stopping youtubedownloader.exe
+2020-09-12 14:49:39 - ProcessKill 11612
+2020-09-12 14:49:39 - Found child process: 13424 Name: conhost.exe
+2020-09-12 14:49:39 - Found child process: 3736 Name: node.exe
+2020-09-12 14:49:40 - Stopping process 13424
+2020-09-12 14:49:40 - Send SIGINT 13424
+2020-09-12 14:49:40 - SIGINT to 13424 failed - Killing as fallback
+2020-09-12 14:49:40 - Stopping process 3736
+2020-09-12 14:49:40 - Send SIGINT 3736
+2020-09-12 14:49:40 - SIGINT to 3736 failed - Killing as fallback
+2020-09-12 14:49:40 - Stopping process 11612
+2020-09-12 14:49:40 - Send SIGINT 11612
+2020-09-12 14:49:40 - SIGINT to 11612 failed - Killing as fallback
+2020-09-12 14:49:40 - Finished youtubedownloader.exe
+2020-09-12 15:03:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:03:28 - Started 8184
+2020-09-12 15:08:26 - Stopping youtubedownloader.exe
+2020-09-12 15:08:26 - ProcessKill 8184
+2020-09-12 15:08:26 - Found child process: 11412 Name: conhost.exe
+2020-09-12 15:08:26 - Found child process: 9616 Name: node.exe
+2020-09-12 15:08:26 - Stopping process 11412
+2020-09-12 15:08:26 - Send SIGINT 11412
+2020-09-12 15:08:26 - SIGINT to 11412 failed - Killing as fallback
+2020-09-12 15:08:26 - Stopping process 9616
+2020-09-12 15:08:26 - Send SIGINT 9616
+2020-09-12 15:08:26 - SIGINT to 9616 failed - Killing as fallback
+2020-09-12 15:08:26 - Stopping process 8184
+2020-09-12 15:08:26 - Send SIGINT 8184
+2020-09-12 15:08:26 - SIGINT to 8184 failed - Killing as fallback
+2020-09-12 15:08:26 - Finished youtubedownloader.exe
+2020-09-12 15:08:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:08:28 - Started 6676
+2020-09-12 15:11:51 - Stopping youtubedownloader.exe
+2020-09-12 15:11:51 - ProcessKill 6676
+2020-09-12 15:11:51 - Found child process: 15248 Name: conhost.exe
+2020-09-12 15:11:51 - Found child process: 14072 Name: node.exe
+2020-09-12 15:11:51 - Stopping process 15248
+2020-09-12 15:11:51 - Send SIGINT 15248
+2020-09-12 15:11:51 - SIGINT to 15248 failed - Killing as fallback
+2020-09-12 15:11:51 - Stopping process 14072
+2020-09-12 15:11:51 - Send SIGINT 14072
+2020-09-12 15:11:51 - SIGINT to 14072 failed - Killing as fallback
+2020-09-12 15:11:51 - Stopping process 6676
+2020-09-12 15:11:51 - Send SIGINT 6676
+2020-09-12 15:11:51 - SIGINT to 6676 failed - Killing as fallback
+2020-09-12 15:11:51 - Finished youtubedownloader.exe
+2020-09-12 15:11:53 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:11:53 - Started 11184
+2020-09-12 15:13:36 - Stopping youtubedownloader.exe
+2020-09-12 15:13:36 - ProcessKill 11184
+2020-09-12 15:13:36 - Found child process: 1452 Name: conhost.exe
+2020-09-12 15:13:36 - Found child process: 15744 Name: node.exe
+2020-09-12 15:13:36 - Stopping process 1452
+2020-09-12 15:13:36 - Send SIGINT 1452
+2020-09-12 15:13:36 - SIGINT to 1452 failed - Killing as fallback
+2020-09-12 15:13:36 - Stopping process 15744
+2020-09-12 15:13:36 - Send SIGINT 15744
+2020-09-12 15:13:36 - SIGINT to 15744 failed - Killing as fallback
+2020-09-12 15:13:36 - Stopping process 11184
+2020-09-12 15:13:36 - Send SIGINT 11184
+2020-09-12 15:13:36 - SIGINT to 11184 failed - Killing as fallback
+2020-09-12 15:13:36 - Finished youtubedownloader.exe
+2020-09-12 15:13:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:13:38 - Started 10080
+2020-09-12 15:14:18 - Stopping youtubedownloader.exe
+2020-09-12 15:14:18 - ProcessKill 10080
+2020-09-12 15:14:18 - Found child process: 13596 Name: conhost.exe
+2020-09-12 15:14:18 - Found child process: 14696 Name: node.exe
+2020-09-12 15:14:18 - Stopping process 13596
+2020-09-12 15:14:18 - Send SIGINT 13596
+2020-09-12 15:14:18 - SIGINT to 13596 failed - Killing as fallback
+2020-09-12 15:14:18 - Stopping process 14696
+2020-09-12 15:14:18 - Send SIGINT 14696
+2020-09-12 15:14:18 - SIGINT to 14696 failed - Killing as fallback
+2020-09-12 15:14:18 - Stopping process 10080
+2020-09-12 15:14:18 - Send SIGINT 10080
+2020-09-12 15:14:18 - SIGINT to 10080 failed - Killing as fallback
+2020-09-12 15:14:18 - Finished youtubedownloader.exe
+2020-09-12 15:14:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:14:19 - Started 5872
+2020-09-12 15:18:03 - Stopping youtubedownloader.exe
+2020-09-12 15:18:03 - ProcessKill 5872
+2020-09-12 15:18:03 - Found child process: 12676 Name: conhost.exe
+2020-09-12 15:18:03 - Found child process: 12316 Name: node.exe
+2020-09-12 15:18:03 - Stopping process 12676
+2020-09-12 15:18:03 - Send SIGINT 12676
+2020-09-12 15:18:03 - SIGINT to 12676 failed - Killing as fallback
+2020-09-12 15:18:03 - Stopping process 12316
+2020-09-12 15:18:03 - Send SIGINT 12316
+2020-09-12 15:18:03 - SIGINT to 12316 failed - Killing as fallback
+2020-09-12 15:18:03 - Stopping process 5872
+2020-09-12 15:18:03 - Send SIGINT 5872
+2020-09-12 15:18:03 - SIGINT to 5872 failed - Killing as fallback
+2020-09-12 15:18:03 - Finished youtubedownloader.exe
+2020-09-12 15:18:04 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-12 15:18:04 - Started 1280
