@@ -3,6 +3,8 @@
 //######## YOUTUBE VIDEO ########
 //###############################
 
+var isSliderInitialized = false;
+
 document.addEventListener("DOMContentLoaded", function() {
     chrome.tabs.getSelected(null,function(tab) {
         var regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
@@ -18,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
                 var Duration = data.length;
+                isSliderInitialized = true;
                 $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
                 $("#slider-range").slider({
                     range: true,
@@ -94,7 +97,10 @@ $( "#slider-range" ).slider({
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 0 ])),
             getStringFromTime(getFormattedTimeFromSeconds(ui.values[ 1 ]))
         ];
-        $("#slider-infos")[0].innerHTML =  "<b>From</b> " + time[ 0 ] + " <b>to</b> " + time[ 1 ];
+        if(isSliderInitialized)
+            $("#slider-infos")[0].innerHTML =  "<b>From</b> " + time[ 0 ] + " <b>to</b> " + time[ 1 ];
+        else
+            $("#slider-infos")[0].innerHTML = "<b><i>Please wait...</i></b>";
     }
 });
 
