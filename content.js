@@ -10,6 +10,33 @@ document.addEventListener("DOMContentLoaded", function() {
         if(match)
         {
             document.getElementById("URL_area").value = tab.url;
+            fetch(`http://localhost:4000/getVideoLength?URL=${tab.url}`, {
+                method: 'get'
+            }).then(response => response.json()).then(data => {
+                console.log(data);
+                //document.getElementById("URL_area").value = data.length;
+    
+    
+                var Duration = data.length;
+                $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + getStringFromTime(getFormattedTimeFromSeconds(data.length));
+                $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: Duration,
+                    values: [0, Duration],
+                    create: function () {
+                        //handle.text( $( this ).slider( "value" ) );
+                    },
+                    slide: function (event, ui) {
+                        //handle.text( ui.value );
+                        var time = [
+                            getStringFromTime(getFormattedTimeFromSeconds(ui.values[0])),
+                            getStringFromTime(getFormattedTimeFromSeconds(ui.values[1]))
+                        ];
+                        $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
+                    }
+                });
+            })
         }
     });
 });
@@ -40,7 +67,9 @@ $("#dl-audio").on("click", function(event) {
 });
 
 function sendAudio(URL) {
-    window.location.href = `http://localhost:4000/downloadAudio?URL=${URL}`;
+    var startTime = $( "#slider-range" ).slider( "values", 0 );
+    var endTime = $( "#slider-range" ).slider( "values", 1 );
+    window.location.href = `http://localhost:4000/downloadAudio?URL=${URL}?startTime=${startTime}?endTime=${endTime}`;
 }
 
 //#############
@@ -74,7 +103,9 @@ var time = [
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 0 ))),
     getStringFromTime(getFormattedTimeFromSeconds($( "#slider-range" ).slider( "values", 1 )))
 ];
-$("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
+
+//$("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
+$("#slider-infos")[0].innerHTML = "<b><i>Please wait...</i></b>";
 
 
 function getFormattedTimeFromSeconds(secs)
@@ -123,15 +154,19 @@ function getFormattedTimeFromSeconds(secs)
     };
 }
 
-function getStringFromTime(time)
-{
+function getStringFromTime(time) {
     var toReturn = "";
     if(time.hours)
+    {
         toReturn+=time.hours + "h ";
+    }
     if(time.minutes)
+    {
         toReturn+=time.minutes + "m ";
+    }
     if(time.seconds!=undefined)
+    {
         toReturn+=time.seconds + "s ";
-    //toReturn = time.hours + "h " + time.minutes + "min " + time.seconds + "sec";
+    }
     return toReturn;
 }

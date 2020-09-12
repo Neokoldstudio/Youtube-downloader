@@ -12,6 +12,7 @@ app.get('/downloadVideo', (req,res) => {
     res.header('Content-Disposition', 'attachment; filename="Video.mp4"');
     ytdl(URL, {
         format: 'mp4',
+        begin: req.query.startTime*1000,
         }).pipe(res);
     });
 
@@ -23,9 +24,11 @@ app.get('/downloadAudio', (req,res) => {
         }).pipe(res);
 });
 
-/* app.get("/getInfo", (req, res) => {
+app.get("/getVideoLength", (req, res) => {
     var URL = req.query.URL;
     ytdl.getBasicInfo(URL).then(data => {
-       res.send(data.playerResponse.videoDetails.lengthSeconds);
+       res.json({
+           length: data.player_response.videoDetails.lengthSeconds
+       });
     });
-}); */
+});
