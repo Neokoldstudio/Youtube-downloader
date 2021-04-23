@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         $("#slider-infos")[0].innerHTML = "<b>From</b> " + time[0] + " <b>to</b> " + time[1];
                     }
                 });
-            })
+            });
         }
     });
 });

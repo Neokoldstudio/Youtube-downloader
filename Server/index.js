@@ -22,6 +22,7 @@ app.get('/downloadAudio', (req,res) => {
     ytdl.getBasicInfo(URL).then(data => {
         res.header('Content-Disposition', 'attachment; filename="'+ data.player_response.videoDetails.title +'.mp3"');
         ytdl(URL, {
+            format: "mp3",
             filter: "audioonly",
             }).pipe(res);
         });

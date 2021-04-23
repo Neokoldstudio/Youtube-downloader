@@ -124,3 +124,13 @@
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
     at async Function.exports.<computed> [as getBasicInfo] (C:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\ytdl-core\lib\info.js:296:18)
 (node:13260) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".

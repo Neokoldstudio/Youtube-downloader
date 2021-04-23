@@ -800,3 +800,648 @@ Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2020-11-23 16:07:02 - Finished youtubedownloader.exe
 2020-11-23 16:16:18 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2020-11-23 16:16:18 - Started 12332
+2020-12-10 23:24:10 - Stopping youtubedownloader.exe
+2020-12-10 23:24:10 - ProcessKill 12332
+2020-12-10 23:24:14 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-10 23:26:53 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-10 23:26:54 - Started 6792
+2020-12-10 23:28:47 - Stopping youtubedownloader.exe
+2020-12-10 23:28:47 - ProcessKill 6792
+2020-12-10 23:28:57 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2020-12-11 18:08:14 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-11 18:08:14 - Started 548
+2020-12-19 01:08:30 - Stopping youtubedownloader.exe
+2020-12-19 01:08:31 - ProcessKill 548
+2020-12-19 01:08:35 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-19 11:05:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-19 11:05:20 - Started 7656
+2020-12-26 17:29:44 - Stopping youtubedownloader.exe
+2020-12-26 17:29:44 - ProcessKill 7656
+2020-12-26 17:29:49 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-26 17:31:50 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-26 17:31:50 - Started 7884
+2020-12-26 18:03:37 - Stopping youtubedownloader.exe
+2020-12-26 18:03:37 - ProcessKill 7884
+2020-12-26 18:03:40 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2020-12-26 18:08:08 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-26 18:08:29 - Started 7596
+2020-12-27 22:15:31 - Stopping youtubedownloader.exe
+2020-12-27 22:15:31 - ProcessKill 7596
+2020-12-27 22:15:32 - Found child process: 7904 Name: conhost.exe
+2020-12-27 22:15:32 - Found child process: 10012 Name: node.exe
+2020-12-27 22:15:32 - Stopping process 7904
+2020-12-27 22:15:32 - Send SIGINT 7904
+2020-12-27 22:15:33 - SIGINT to 7904 failed - Killing as fallback
+2020-12-27 22:15:33 - Stopping process 10012
+2020-12-27 22:15:33 - Send SIGINT 10012
+2020-12-27 22:15:33 - SIGINT to 10012 failed - Killing as fallback
+2020-12-27 22:15:33 - Stopping process 7596
+2020-12-27 22:15:33 - Send SIGINT 7596
+2020-12-27 22:15:33 - SIGINT to 7596 failed - Killing as fallback
+2020-12-27 22:15:33 - Finished youtubedownloader.exe
+2020-12-27 22:15:34 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-27 22:15:34 - Started 8904
+2020-12-27 22:48:19 - Stopping youtubedownloader.exe
+2020-12-27 22:48:19 - ProcessKill 8904
+2020-12-27 22:48:20 - Found child process: 14192 Name: conhost.exe
+2020-12-27 22:48:20 - Found child process: 18900 Name: node.exe
+2020-12-27 22:48:20 - Stopping process 14192
+2020-12-27 22:48:20 - Send SIGINT 14192
+2020-12-27 22:48:20 - SIGINT to 14192 failed - Killing as fallback
+2020-12-27 22:48:20 - Stopping process 18900
+2020-12-27 22:48:20 - Send SIGINT 18900
+2020-12-27 22:48:20 - SIGINT to 18900 failed - Killing as fallback
+2020-12-27 22:48:20 - Stopping process 8904
+2020-12-27 22:48:20 - Send SIGINT 8904
+2020-12-27 22:48:20 - SIGINT to 8904 failed - Killing as fallback
+2020-12-27 22:48:20 - Finished youtubedownloader.exe
+2020-12-27 22:48:21 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-27 22:48:21 - Started 18824
+2020-12-28 00:03:18 - Stopping youtubedownloader.exe
+2020-12-28 00:03:18 - ProcessKill 18824
+2020-12-28 00:03:19 - Found child process: 11024 Name: conhost.exe
+2020-12-28 00:03:19 - Found child process: 15916 Name: node.exe
+2020-12-28 00:03:51 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2020-12-28 12:19:55 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-28 12:19:55 - Started 7708
+2020-12-30 16:11:31 - Stopping youtubedownloader.exe
+2020-12-30 16:11:31 - ProcessKill 7708
+2020-12-30 16:11:31 - Found child process: 7720 Name: conhost.exe
+2020-12-30 16:11:31 - Found child process: 7832 Name: node.exe
+2020-12-30 16:11:31 - Stopping process 7720
+2020-12-30 16:11:31 - Send SIGINT 7720
+2020-12-30 16:11:31 - SIGINT to 7720 failed - Killing as fallback
+2020-12-30 16:11:31 - Stopping process 7832
+2020-12-30 16:11:31 - Send SIGINT 7832
+2020-12-30 16:11:31 - SIGINT to 7832 failed - Killing as fallback
+2020-12-30 16:11:31 - Stopping process 7708
+2020-12-30 16:11:31 - Send SIGINT 7708
+2020-12-30 16:11:31 - SIGINT to 7708 failed - Killing as fallback
+2020-12-30 16:11:31 - Finished youtubedownloader.exe
+2020-12-30 17:15:55 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-30 17:15:55 - Started 9580
+2021-01-01 12:53:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-01 12:53:47 - Started 7084
+2021-01-03 12:33:33 - Stopping youtubedownloader.exe
+2021-01-03 12:33:33 - ProcessKill 7084
+2021-01-03 12:33:54 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-03 12:35:52 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-03 12:35:52 - Started 7368
+2021-01-13 22:17:37 - Stopping youtubedownloader.exe
+2021-01-13 22:17:37 - ProcessKill 7368
+2021-01-13 22:17:40 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-13 22:20:05 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-13 22:20:05 - Started 1736
+2021-01-13 22:27:47 - Stopping youtubedownloader.exe
+2021-01-13 22:27:47 - ProcessKill 1736
+2021-01-13 22:27:50 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-01-14 17:38:15 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-14 17:38:15 - Started 6852
+2021-01-28 18:00:36 - Stopping youtubedownloader.exe
+2021-01-28 18:00:37 - ProcessKill 6852
+2021-01-28 18:00:44 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-28 18:02:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-28 18:02:48 - Started 6504
+2021-02-03 19:50:44 - Stopping youtubedownloader.exe
+2021-02-03 19:50:45 - ProcessKill 6504
+2021-02-03 19:50:49 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-03 19:52:34 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-03 19:52:34 - Started 6260
+2021-02-08 12:39:31 - Stopping youtubedownloader.exe
+2021-02-08 12:39:32 - ProcessKill 6260
+2021-02-08 12:39:38 - Shutdown exception
+Message:Impossible de charger le fichier ou l'assembly 'System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une de ses dépendances. Média protégé en écriture. (Exception de HRESULT : 0x80070013)
+Stacktrace:   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-09 17:10:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-09 17:10:28 - Started 10912
+2021-02-09 17:50:30 - Stopping youtubedownloader.exe
+2021-02-09 17:50:30 - ProcessKill 10912
+2021-02-09 17:50:31 - Found child process: 10656 Name: conhost.exe
+2021-02-09 17:50:31 - Found child process: 15216 Name: node.exe
+2021-02-09 17:50:31 - Stopping process 10656
+2021-02-09 17:50:31 - Send SIGINT 10656
+2021-02-09 17:50:31 - SIGINT to 10656 failed - Killing as fallback
+2021-02-09 17:50:31 - Stopping process 15216
+2021-02-09 17:50:31 - Send SIGINT 15216
+2021-02-09 17:50:31 - SIGINT to 15216 failed - Killing as fallback
+2021-02-09 17:50:31 - Stopping process 10912
+2021-02-09 17:50:31 - Send SIGINT 10912
+2021-02-09 17:50:31 - SIGINT to 10912 failed - Killing as fallback
+2021-02-09 17:50:31 - Finished youtubedownloader.exe
+2021-02-09 17:50:31 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-09 17:50:31 - Started 13360
+2021-02-09 17:51:55 - Stopping youtubedownloader.exe
+2021-02-09 17:51:55 - ProcessKill 13360
+2021-02-09 17:51:55 - Found child process: 12480 Name: conhost.exe
+2021-02-09 17:51:55 - Found child process: 328 Name: node.exe
+2021-02-09 17:51:55 - Stopping process 12480
+2021-02-09 17:51:55 - Send SIGINT 12480
+2021-02-09 17:51:55 - SIGINT to 12480 failed - Killing as fallback
+2021-02-09 17:51:55 - Stopping process 328
+2021-02-09 17:51:55 - Send SIGINT 328
+2021-02-09 17:51:55 - SIGINT to 328 failed - Killing as fallback
+2021-02-09 17:51:55 - Stopping process 13360
+2021-02-09 17:51:55 - Send SIGINT 13360
+2021-02-09 17:51:55 - SIGINT to 13360 failed - Killing as fallback
+2021-02-09 17:51:55 - Finished youtubedownloader.exe
+2021-02-09 17:51:57 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-09 17:51:57 - Started 17252
+2021-02-10 13:05:30 - Stopping youtubedownloader.exe
+2021-02-10 13:05:31 - ProcessKill 17252
+2021-02-10 13:05:45 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-10 13:07:36 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-10 13:07:37 - Started 5544
+2021-02-11 00:10:31 - Stopping youtubedownloader.exe
+2021-02-11 00:10:31 - ProcessKill 5544
+2021-02-11 00:10:31 - Found child process: 6080 Name: conhost.exe
+2021-02-11 00:10:31 - Found child process: 196 Name: node.exe
+2021-02-11 00:10:32 - Stopping process 6080
+2021-02-11 00:10:32 - Send SIGINT 6080
+2021-02-11 00:10:32 - SIGINT to 6080 failed - Killing as fallback
+2021-02-11 00:10:32 - Stopping process 196
+2021-02-11 00:10:32 - Send SIGINT 196
+2021-02-11 00:10:32 - SIGINT to 196 failed - Killing as fallback
+2021-02-11 00:10:32 - Stopping process 5544
+2021-02-11 00:10:32 - Send SIGINT 5544
+2021-02-11 00:10:32 - SIGINT to 5544 failed - Killing as fallback
+2021-02-11 00:10:32 - Finished youtubedownloader.exe
+2021-02-11 00:10:33 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 00:10:33 - Started 16888
+2021-02-11 00:16:22 - Stopping youtubedownloader.exe
+2021-02-11 00:16:22 - ProcessKill 16888
+2021-02-11 00:16:22 - Found child process: 5516 Name: conhost.exe
+2021-02-11 00:16:22 - Found child process: 16432 Name: node.exe
+2021-02-11 00:16:22 - Stopping process 5516
+2021-02-11 00:16:22 - Send SIGINT 5516
+2021-02-11 00:16:22 - SIGINT to 5516 failed - Killing as fallback
+2021-02-11 00:16:22 - Stopping process 16432
+2021-02-11 00:16:22 - Send SIGINT 16432
+2021-02-11 00:16:22 - SIGINT to 16432 failed - Killing as fallback
+2021-02-11 00:16:22 - Stopping process 16888
+2021-02-11 00:16:22 - Send SIGINT 16888
+2021-02-11 00:16:22 - SIGINT to 16888 failed - Killing as fallback
+2021-02-11 00:16:22 - Finished youtubedownloader.exe
+2021-02-11 00:16:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 00:16:23 - Started 17148
+2021-02-11 00:17:47 - Stopping youtubedownloader.exe
+2021-02-11 00:17:47 - ProcessKill 17148
+2021-02-11 00:17:47 - Found child process: 3108 Name: conhost.exe
+2021-02-11 00:17:47 - Found child process: 9776 Name: node.exe
+2021-02-11 00:17:47 - Found child process: 7340 Name: NVIDIA Web Helper.exe
+2021-02-11 00:17:47 - Found child process: 9728 Name: conhost.exe
+2021-02-11 00:17:47 - Stopping process 9728
+2021-02-11 00:17:47 - Send SIGINT 9728
+2021-02-11 00:17:47 - SIGINT to 9728 failed - Killing as fallback
+2021-02-11 00:17:47 - Stopping process 7340
+2021-02-11 00:17:47 - Send SIGINT 7340
+2021-02-11 00:17:47 - SIGINT to 7340 failed - Killing as fallback
+2021-02-11 00:17:47 - Stopping process 3108
+2021-02-11 00:17:47 - Send SIGINT 3108
+2021-02-11 00:17:47 - SIGINT to 3108 failed - Killing as fallback
+2021-02-11 00:17:48 - Stopping process 9776
+2021-02-11 00:17:48 - Send SIGINT 9776
+2021-02-11 00:17:48 - SIGINT to 9776 failed - Killing as fallback
+2021-02-11 00:17:48 - Stopping process 17148
+2021-02-11 00:17:48 - Send SIGINT 17148
+2021-02-11 00:17:48 - SIGINT to 17148 failed - Killing as fallback
+2021-02-11 00:17:48 - Finished youtubedownloader.exe
+2021-02-11 00:17:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 00:17:49 - Started 1880
+2021-02-11 12:55:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 12:55:01 - Started 6220
+2021-02-11 14:35:06 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 14:35:06 - Started 5612
+2021-02-11 16:24:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 16:24:19 - Started 6272
+2021-02-11 16:28:27 - Stopping youtubedownloader.exe
+2021-02-11 16:28:27 - ProcessKill 6272
+2021-02-11 16:28:27 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-11 16:28:56 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 16:28:56 - Started 5332
+2021-02-11 16:53:41 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 16:53:42 - Started 5408
+2021-02-11 16:57:10 - Stopping youtubedownloader.exe
+2021-02-11 16:57:10 - ProcessKill 5408
+2021-02-11 16:57:10 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+                                                                                                                                                                                                                                                                                                                                                                                                                                 2021-02-11 18:27:13 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 18:27:13 - Started 5184
+2021-02-11 18:35:47 - Stopping youtubedownloader.exe
+2021-02-11 18:35:47 - ProcessKill 5184
+2021-02-11 18:35:48 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-11 19:01:51 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 19:01:51 - Started 6176
+2021-02-11 19:12:53 - Stopping youtubedownloader.exe
+2021-02-11 19:12:53 - ProcessKill 6176
+2021-02-11 19:12:53 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-11 23:29:42 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-11 23:29:42 - Started 5272
+2021-02-12 12:23:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-12 12:23:01 - Started 4980
+2021-02-12 12:23:16 - Stopping youtubedownloader.exe
+2021-02-12 12:23:16 - ProcessKill 4980
+2021-02-12 12:23:16 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-12 12:23:42 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-12 12:23:42 - Started 5152
+2021-02-13 00:17:52 - Stopping youtubedownloader.exe
+2021-02-13 00:17:52 - ProcessKill 5152
+2021-02-13 00:17:52 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-13 11:04:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-13 11:04:30 - Started 5248
+2021-02-15 18:22:09 - Stopping youtubedownloader.exe
+2021-02-15 18:22:09 - ProcessKill 5248
+2021-02-15 18:22:09 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-15 21:33:39 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-15 21:33:39 - Started 6204
+2021-02-17 00:16:02 - Stopping youtubedownloader.exe
+2021-02-17 00:16:02 - ProcessKill 6204
+2021-02-17 00:16:02 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-17 11:24:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-17 11:24:26 - Started 5440
+2021-02-23 19:49:31 - Stopping youtubedownloader.exe
+2021-02-23 19:49:31 - ProcessKill 5440
+2021-02-23 19:49:31 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-23 19:50:08 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-23 19:50:08 - Started 5920
+2021-02-28 19:52:09 - Stopping youtubedownloader.exe
+2021-02-28 19:52:09 - ProcessKill 5920
+2021-02-28 19:52:10 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-02-28 19:52:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-28 19:52:45 - Started 5836
+2021-03-13 00:18:35 - Stopping youtubedownloader.exe
+2021-03-13 00:18:35 - ProcessKill 5836
+2021-03-13 00:18:35 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-03-13 00:19:15 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-13 00:19:15 - Started 4468
+2021-03-21 21:41:07 - Stopping youtubedownloader.exe
+2021-03-21 21:41:07 - ProcessKill 4468
+2021-03-21 21:41:07 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-03-22 18:00:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-22 18:00:26 - Started 5628
+2021-04-13 23:40:34 - Stopping youtubedownloader.exe
+2021-04-13 23:40:34 - ProcessKill 5628
+2021-04-13 23:40:35 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-13 23:41:15 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-13 23:41:15 - Started 5064
+2021-04-13 23:41:41 - Stopping youtubedownloader.exe
+2021-04-13 23:41:41 - ProcessKill 5064
+2021-04-13 23:41:41 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-14 12:06:59 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-14 12:06:59 - Started 5960
+2021-04-14 20:22:37 - Stopping youtubedownloader.exe
+2021-04-14 20:22:37 - ProcessKill 5960
+2021-04-14 20:22:38 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-14 18:45:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-14 18:45:49 - Started 5168
+2021-04-15 19:48:44 - Stopping youtubedownloader.exe
+2021-04-15 19:48:44 - ProcessKill 5168
+2021-04-15 19:48:45 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-15 19:49:18 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-15 19:49:18 - Started 5380
+2021-04-15 19:49:40 - Stopping youtubedownloader.exe
+2021-04-15 19:49:40 - ProcessKill 5380
+2021-04-15 19:49:40 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-15 20:03:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-15 20:03:44 - Started 5328
+2021-04-16 15:54:53 - Stopping youtubedownloader.exe
+2021-04-16 15:54:53 - ProcessKill 5328
+2021-04-16 15:54:53 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-16 17:27:58 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-16 17:27:58 - Started 4132
+2021-04-17 14:28:01 - Stopping youtubedownloader.exe
+2021-04-17 14:28:01 - ProcessKill 4132
+2021-04-17 14:28:01 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-18 08:40:51 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-18 08:40:51 - Started 5224
+2021-04-18 21:09:02 - Stopping youtubedownloader.exe
+2021-04-18 21:09:02 - ProcessKill 5224
+2021-04-18 21:09:02 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-19 08:10:51 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-19 08:10:51 - Started 5420
+2021-04-21 23:11:10 - Stopping youtubedownloader.exe
+2021-04-21 23:11:10 - ProcessKill 5420
+2021-04-21 23:11:10 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2021-04-22 09:40:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "c:\Users\utilisateur\Desktop\Youtube downloader\Server\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\utilisateur\Desktop\Youtube downloader\Server\index.js" --scriptoptions= --log "Youtube Downloader wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-22 09:40:18 - Started 5880
